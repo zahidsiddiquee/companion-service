@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Companion - Companion Service</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ / Safety</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <div class="search">
+                    <input type="text" id="search" name="search" placeholder="Search this website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="booking">
+        <h1>Book a Companion</h1>
+        <p>We offer companionship services exclusively for positive events in **Lahore**. Whether it's a wedding, party, social gathering, or an event where you need friendly company, we're here to assist.</p>
+    
+        <form action="#" method="post">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+    
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+    
+            <label for="event-type">Type of Event:</label><br>
+            <select id="event-type" name="event-type" required>
+                <option value="">Select Event Type</option>
+                <option value="wedding">Wedding</option>
+                <option value="party">Party</option>
+                <option value="friends-gathering">Friends Gathering</option>
+                <option value="corporate-event">Corporate Event</option>
+            </select><br>
+    
+            <label for="location">Event Location (Lahore only):</label><br>
+            <input type="text" id="location" name="location" placeholder="Enter the event location" required><br>
+    
+            <label for="date">Event Date:</label><br>
+            <input type="date" id="date" name="date" required><br>
+    
+            <label for="time">Event Time:</label><br>
+            <input type="time" id="time" name="time" required><br>
+    
+            <label for="message">Additional Instructions:</label><br>
+            <textarea id="message" name="message" placeholder="Any preferences or requests?"></textarea><br>
+    
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Companion Service. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
